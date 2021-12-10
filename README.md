@@ -18,7 +18,7 @@ P P d d d
 d d P d d  
 d d d P P  
 
-Use the program drillingForOil.cpp to find out how much oil you've acquired! Some example land maps and the number of oil reservoirs they contain are included below to help you understand the basics of the program functionality. These examples are also inlcuded in the repo if you want to run them yourself. The program will output the map that it is drilling in addition to the total number of oil reservoirs on it.
+Use the program *drillingForOil.cpp* to find out how much oil you've acquired! Some example land maps and the number of oil reservoirs they contain are included below to help you understand the basics of the program functionality. These examples are also inlcuded in the repo if you want to run them yourself. The program will output the map that it is drilling in addition to the total number of oil reservoirs on it.
 
 If you acquire more land beyond that which you've inherited (type up your own appropriately formatted .txt file), the program will count the total number oil reservoirs on it as well!
 
