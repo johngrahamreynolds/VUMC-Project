@@ -1,0 +1,7 @@
+6 5
+P d d d P
+d d P d P
+P P d d P
+P P d d P
+d d d d P
+d d d d d
