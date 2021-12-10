@@ -8,7 +8,7 @@ Time to go Drilling for Oil!🛢️⛽
 
 ## How the Program Works
 
-This program will help you find and drill all the oil reservoirs on your land. The program accepts as input a .txt file containing on the first line two integers, M and N, separated by a space. An M x N grid of space separated values representing a map of the land immediately follows on the remaining lines of the .txt file. The land map contains two possible values at each of the MN possible grid locations: a 'P' representing petroleum, or a 'd' representing plain ole oil-free dirt. An oil reservoir is defined as any set of **oil grid points 'P' connected _vertically_ or _horizontally_**. You may assume that the land coordinates beyond those displayed on the map are plain ole oil-free dirt (your neighbotrs have already drilled their land). The land you miraculously inherited is encoded in a 4 x 5 land map called Inheritance.txt. 
+This program will help you find and drill all the oil reservoirs on your land. The program accepts as input a .txt file containing on the first line two integers, M and N, separated by a space. An M x N grid of space-separated values representing a map of the land immediately follows on the remaining lines of the .txt file. The land map contains two possible values at each of the MN possible grid locations: a 'P' representing petroleum, or a 'd' representing plain ole oil-free dirt. An oil reservoir is defined as any set of **oil grid points 'P' connected _vertically_ or _horizontally_**. You may assume that the land coordinates beyond those displayed on the map are plain ole oil-free dirt (your neighbotrs have already drilled their land). The land you miraculously inherited is encoded in a 4 x 5 land map called Inheritance.txt. 
 
 Inheritance.txt contains the following:
 
@@ -76,7 +76,7 @@ This land map contains 0 vertically and/or hortizontally connected oil reservoir
 
 ## Important: Limitations and Drawbacks of the Program
 
-Most importantly, the program assumes a very clean file input process. The .txt files must be correctly input into the program when prompted without typo. They must be located in the appropriate folder (same folder as the program) to be processed correctly. The program also assumes that the individual .txt files are formatted correctly: first line contains two space separated integers M and N, representing the M x N grid of 'd' and 'P' space separated point values on the remaining lines of the program. In other words, this program assumes the utmost accuracy in the land map file format and user's ability to correctly type the name of the .txt file in when asked.
+Most importantly, the program assumes a very clean file input process. The .txt files must be correctly input into the program when prompted without typo. They must be located in the appropriate folder (same folder as the program) to be processed correctly. The program also assumes that the individual .txt files are formatted correctly: first line contains two space-separated integers M and N, representing the M x N grid of 'd' and 'P' space-separated point values on the remaining lines of the program. In other words, this program assumes the utmost accuracy in the land map file format and user's ability to correctly type the name of the .txt file in when asked.
 
 ## Complexity Analysis of the Program's Searching Algorithm
 
