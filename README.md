@@ -69,7 +69,7 @@ This land map contains 0 vertically and/or hortizontally connected oil reservoir
 
 And finally, a very trivial exmaple Land4.txt:
 
-0 0
+0 0  
   
 
 This land map contains 0 vertically and/or hortizontally connected oil reservoirs.
