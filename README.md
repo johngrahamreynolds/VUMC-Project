@@ -12,11 +12,11 @@ This program will help you find and drill all the oil reservoirs on your land. T
 
 Inheritance.txt contains the following:
 
-4 5 
-P P d d d
-P P d d d
-d d P d d
-d d d P P
+4 5  
+P P d d d  
+P P d d d  
+d d P d d  
+d d d P P  
 
 Use the Program to find out how much oil you've acquired! Some example land maps and the number of oil reservoirs they contain are included below. These examples are also inlcuded in the file if you want to run them yourself. 
 
@@ -24,41 +24,41 @@ Use the Program to find out how much oil you've acquired! Some example land maps
 
 A different land map Land1.txt looks like:
 
-6 4 
-P P d d
-P P d d
-d d d d
-d P d d
-d d P P
-d d d d
+6 4  
+P P d d  
+P P d d  
+d d d d  
+d P d d  
+d d P P  
+d d d d  
 
 This land map contains 3 vertically or hortizontally connected oil reservoirs.
 
 A trivial example Land2.txt:
-'''
-3 3
-d d d
-d d d
-d d d
-'''
+
+3 3  
+d d d  
+d d d  
+d d d  
+
 This land map contains 0 oil reservoirs.
 
 A final example Land3.txt looks like:
 
-6 5
-P d d d P
-d d P d P
-P P d d P
-P P d d P
-d d d d P
-d d d d d
+6 5  
+P d d d P  
+d d P d P  
+P P d d P  
+P P d d P  
+d d d d P  
+d d d d d  
 
 This land map contains 4 vertically or hortizontally connected oil reservoirs.
 
 ## How to Compile and Run the Program
 
-I have been using the terminal and the following command to compile the program:
+I have been using the terminal and the following command to compile the program:  
 g++ -std=c++11 -o drillingForOil drillingForOil.cpp
 
-To run the program:
+To run the program:  
 ./drillingForOil
