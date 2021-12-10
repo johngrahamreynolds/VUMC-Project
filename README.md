@@ -74,7 +74,7 @@ And finally, a very trivial exmaple Land4.txt:
 
 This land map contains 0 vertically and/or hortizontally connected oil reservoirs.
 
-## Important: Limitations and Drawbacks of the Program
+## ⭐Important: Limitations and Drawbacks of the Program
 
 Most importantly, the program assumes a very clean file input process. The .txt files must be correctly input into the program when prompted without typo. They must be located in the appropriate folder (same folder as the program) to be processed correctly. The program also assumes that the individual .txt files are formatted correctly: first line contains two space-separated integers M and N, representing the M x N grid of 'd' and 'P' space-separated point values on the remaining lines of the program. In other words, this program assumes the utmost accuracy in the land map file format and user's ability to correctly type the name of the .txt file in when asked.
 
