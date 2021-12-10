@@ -25,10 +25,10 @@ If you acquire more land beyond that which you've inherited (type up your own ap
 ## 🏃‍♂️ How to Compile and Run the Program 🏃‍♂️
 
 I have been using the terminal and the following command to compile the program on my Mac from within the folder housing all essential components:  
-g++ -std=c++17 -o drillingForOil drillingForOil.cpp
+`g++ -std=c++17 -o drillingForOil drillingForOil.cpp`
 
 To run the program:  
-./drillingForOil  
+`./drillingForOil`
 
 Feel free to use an IDE of your choice to compile and run the code. From the terminal, any and all .txt land map files must be in the same folder as the program itself.
 
