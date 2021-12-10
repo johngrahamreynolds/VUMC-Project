@@ -84,6 +84,6 @@ The working body of the program, used to search for all vertically and/or hortiz
 
 Following this logic the whole searching algorithm is sure to find and count all oil reservoirs on any given M x N land map.
 
-For an M x N land map, the `drillForOil( ... )` function works in `O(M x N)` time since it loops through each land map coordinate. The helper function `bfs( ... )` also has a time complexity of `O(M x N)`, assuming that the entire land map is made up of oil. In total, this gives the entire algorithm a net `O(M x N)` time complexity.
+For an M x N land map, the `drillForOil( ... )` function works in `O(M x N)` time since it loops through each land map coordinate. The helper function `bfs( ... )` also has a wosrt-case time complexity of `O(M x N)`, assuming that the entire land map is made up of oil. In total, this gives the entire algorithm a net `O(M x N)` time complexity.
 
 The `bfs( ... )` helper function has a space complexity of `O(min(M, N))` since the queue will grow to atmost size min(M, N). Aside from the helper function's queue usage, `drillForOil( ... )` uses no extra space, so the entire space complexity of the algorithm is `O(min(M, N))`.
