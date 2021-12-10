@@ -18,7 +18,15 @@ P P d d d
 d d P d d  
 d d d P P  
 
-Use the Program to find out how much oil you've acquired! Some example land maps and the number of oil reservoirs they contain are included below. These examples are also inlcuded in the file if you want to run them yourself. 
+Use the program drillingForOil.cpp to find out how much oil you've acquired! Some example land maps and the number of oil reservoirs they contain are included below. These examples are also inlcuded in the file if you want to run them yourself. 
+
+## How to Compile and Run the Program
+
+I have been using the terminal and the following command to compile the program:  
+g++ -std=c++11 -o drillingForOil drillingForOil.cpp
+
+To run the program:  
+./drillingForOil  
 
 ## Land Map Examples
 
@@ -54,11 +62,3 @@ d d d d P
 d d d d d  
 
 This land map contains 4 vertically or hortizontally connected oil reservoirs.
-
-## How to Compile and Run the Program
-
-I have been using the terminal and the following command to compile the program:  
-g++ -std=c++11 -o drillingForOil drillingForOil.cpp
-
-To run the program:  
-./drillingForOil
