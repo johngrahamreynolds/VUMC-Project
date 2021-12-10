@@ -6,7 +6,7 @@ Congratulations! You've inherited a large plot of land in Texas from a distant r
 
 Time to go Drilling for Oil!🛢️⛽
 
-## How the Program Works
+## 👷‍♂️ How the Program Works 👷‍♂️
 
 This program will help you find and drill all the oil reservoirs on your land. The program accepts as input a .txt file containing on the first line two integers, M and N, separated by a space. An M x N grid of space-separated values representing a map of the land immediately follows on the remaining lines of the .txt file. The land map contains two possible values at each of the MN possible grid locations: a 'P' representing petroleum, or a 'd' representing plain ole oil-free dirt. An oil reservoir is defined as any set of **oil grid points 'P' connected _vertically_ and/or _horizontally_**. You may assume that the land coordinates beyond those displayed on the map are plain ole oil-free dirt (your neighbors have already drilled their land). The land you miraculously inherited is encoded in a 4 x 5 land map called Inheritance.txt. 
 
@@ -22,7 +22,7 @@ Use the program *drillingForOil.cpp* to find out how much oil you've acquired! S
 
 If you acquire more land beyond that which you've inherited (type up your own appropriately formatted land map .txt file), the program will count the total number oil reservoirs on it as well! Be sure to properly format the land map file of the new land you've acquired to mimic those in the examples!
 
-## How to Compile and Run the Program
+## 🏃‍♂️ How to Compile and Run the Program 🏃‍♂️
 
 I have been using the terminal and the following command to compile the program on my Mac from within the folder housing all essential components:  
 g++ -std=c++17 -o drillingForOil drillingForOil.cpp
@@ -32,7 +32,7 @@ To run the program:
 
 Feel free to use an IDE of your choice to compile and run the code. From the terminal, any and all .txt land map files must be in the same folder as the program itself.
 
-## Land Map Examples
+## 🗺️ Land Map Examples 🗺️
 
 A different land map Land1.txt looks like:
 
@@ -74,11 +74,11 @@ And finally, a very trivial exmaple Land4.txt:
 
 This land map contains 0 vertically and/or hortizontally connected oil reservoirs.
 
-## ⭐Important: Limitations and Drawbacks of the Program
+## ⭐ Important: Limitations and Drawbacks of the Program ⭐
 
 Most importantly, the program assumes a very clean file input process. The .txt files must be correctly input into the program when prompted without typo. They must be located in the appropriate folder (same folder as the program) to be processed correctly. The program also assumes that the individual .txt files are formatted correctly: first line contains two space-separated integers M and N, representing the M x N grid of 'd' and 'P' space-separated point values on the remaining lines of the program. In other words, this program assumes the utmost accuracy in the land map file format and user's ability to correctly type the name of the .txt file in when asked.
 
-## Complexity Analysis of the Program's Searching Algorithm
+## :electron:🔬 Complexity Analysis of the Program's Searching Algorithm 🔬:electron: 
 
 The working body of the program, used to search for all vertically and/or hortizontally connected oil reservoirs, is an appropriately named function `drillForOil( ... )`. The `drillForOil( ... )` function accepts a matrix of land map coordinates read in from the land map's .txt file. It subsequently loops through each location in the M x N matrix and evaluates to see if any given point is an unearthed-oil point 'P'. If the algorithm finds such a point, it iterates the number of oil resevoirs by 1 and then calls another appropriately named helper function `bfs( ... )` to do the heavy lifting (drilling that whole connected reservoir). The `bfs( ... )` function is a Breadth-first Search algorithm which uses a queue to algorithmically drill (change their value to 'd') all unearthed-oil points 'P' that are vertically and/or hortizontally adjacent to the unearthed-oil point 'P' which originally triggered it. If the program finds any such adjacent unearthed-oil points 'P', it drills them and then adds them to the queue to subsequently search each of their adjacent horizontal and vertical points as well. 
 
