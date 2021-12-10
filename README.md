@@ -71,4 +71,4 @@ Most importantly, the program assumes a very clean file input process. The .txt 
 
 ## Complexity Analysis of the Program's Searching Algorithm
 
-The working body of the program, used to search for all vertically and/or hortizontally connected oil reservoirs, is an appropriately named function 'drillForOil( ... )'. The 'drillForOil( ... )' function bfs( ... ). The bfs( ... ) function is a Breadth-first Search algorithm which uses a queue to algorithmically count and drill all vertically and/or hortizontally connected 'P' sections of the M x N map that is taken as input. 
+The working body of the program, used to search for all vertically and/or hortizontally connected oil reservoirs, is an appropriately named function `drillForOil( ... )`. The `drillForOil( ... )` function `bfs( ... )`. The `bfs( ... )` function is a Breadth-first Search algorithm which uses a queue to algorithmically count and drill all vertically and/or hortizontally connected 'P' sections of the M x N map that is taken as input. 
