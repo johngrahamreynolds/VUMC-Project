@@ -35,12 +35,12 @@ d d d d
 This land map contains 3 vertically or hortizontally connected oil reservoirs.
 
 A trivial example Land2.txt:
-
+'''
 3 3
 d d d
 d d d
 d d d
-
+'''
 This land map contains 0 oil reservoirs.
 
 A final example Land3.txt looks like:
