@@ -1,3 +1,5 @@
+### ** Note ** : This was a short creative project I put together in a couple hours time as a final interview step.
+
 # 🌵🏜️🛢️ Drilling for Oil in Texas 🛢️🏜️🌵
 ## Vanderbilt Univserity Medical Center Interview Project (**HIRED**)
 #### 👱‍♂️ John Graham Reynolds, johngrahamreynolds@gmail.com, 502-475-3717 📱
